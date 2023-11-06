@@ -1,0 +1,67 @@
+{
+    "greeting": "Olá, bem-vindo!",
+    "buttonLabel": "Clique aqui",
+    "addressList":{
+        "actions":{
+            "searchCEP":"BUSCAR E CRIAR NOVO CADASTRO",
+            "editAddress":"EDITAR",
+            "deleteAddress":"DELETAR"
+        },
+        "text":{
+            "title":"Lista de endereços:",
+            "titleAddress":"Titulo de endereço:",
+            
+            "CEP":"CEP",
+            "UF":"UF",
+            "city":"Cidade",
+            "street":"Logradouro",
+            "borhood":"Bairro",
+
+            "optionsActions":"Ações",
+            "newAddress":"Novo endereço",
+            "editAddress":"Editar endereço"
+        },
+        "icons":{
+            "edit":"mdi-pencil",
+            "delete":"mdi-delete",
+            "new":"mdi-plus",
+            "CEP":"mdi-map-marker"
+        }
+    },
+
+    "addressModal":{
+        "icons":{
+            "close":"mdi-close"
+        },
+        "text":{
+            "close":"Fechar"
+        }
+    },
+
+    "addressInput":{
+        "text":{
+            "CEP":"CEP",
+            "UF":"UF",
+            "city":"Cidade",
+            "street":"Logradouro",
+            "borhood":"Bairro",
+
+            "btnSearch":"Buscar",
+            "btnSave":"Salvar",
+
+            "created":"Data de criação",
+            "updated":"Ultima atualização"
+        },
+        "validation": {
+            "emptyCep": "O campo CEP não pode estar vazio.",
+            "invalidCep": "O CEP deve conter exatamente 8 caracteres numéricos.",
+            "warningAddress":"Por favor, forneça um CEP válido contendo exatamente 8 caracteres numéricos para que eu possa realizar a busca.",
+            "emptyTitle":"O campo TITULO não pode estar vazio."
+        },
+        "icons":{
+            "search":"mdi-map-search-outline",
+            "save":"mdi-content-save",
+            "CEP":"mdi-map-marker"
+        }
+    }
+}
